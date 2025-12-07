@@ -10,10 +10,17 @@
             capitals["Spain"] = "Madrid";
             capitals["Denmark"] = "Copenhagen";
             capitals["Sweden"] = "Stockholm";
-            capitals["Norway"] = "Oslo";
+            capitals["Norway"] = "Oslo";         //This is for Task 8 in the Homework
 
-            foreach (var pair in capitals) { 
-            Console.WriteLine(pair.Key + " - " + pair.Value);
+            foreach (var pair in capitals)
+            {
+                string capital = capitals[pair.Key];
+                Console.WriteLine(capital); // This is for Task 9 in the Homework
+            }
+
+            foreach (var pair in capitals)
+            {
+                Console.WriteLine(pair.Key + " - " + pair.Value); // This is for Task 10 in the Homework
             }
 
         }
